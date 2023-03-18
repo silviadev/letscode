@@ -1,0 +1,49 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  background-color: hsl(0, 18%, 97%);
+}
+
+.container {
+  color: rgb(13, 12, 13);
+  font-size: 20px;
+  text-align: center;
+
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20vh 30vh 30vh 10vh;
+  
+}
+
+.header {
+  background-color: rgb(183, 95, 47);
+  grid-column: 1/4;
+  grid-row: 1/2;
+
+}
+
+.menu {
+  background-color: aqua;
+  grid-column: 1/1;
+  grid-row: 2/4;
+}
+
+.post1 {
+  background-color: hsl(70, 74%, 68%);
+  grid-column: 2/4;
+  grid-row: 2/2;
+}
+
+.post2 {
+  background-color: hsl(70, 74%, 68%);
+  grid-column: 2/4;
+  grid-row: 3/3;
+  
+}
+
+.footer {
+  background-color: rgb(13, 186, 56);
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
