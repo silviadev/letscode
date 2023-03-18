@@ -1,0 +1,36 @@
+.container{
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    background-image: url('../img/background2.png');
+    background-size:cover;
+}
+
+div {
+    width: 300px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#snacks{
+    background-color: #fdc597;
+    position: relative;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#foods{
+    background-color: #fdc597;
+    position: relative;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#drinks{
+    background-color: #fdc597;
+    position: relative;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
