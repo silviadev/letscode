@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout HTML Semântico</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>Header</header>
+        <nav>Nav</nav>
+        <article id="post1">
+            <iframe width="500" height="200" src="https://www.youtube.com/embed/xsNPEsL3V-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
+        <article id="post2">
+            <p>Ouça e relaxe!</p>
+            <div>&#128525;</div>
+            <p> <audio controls>
+                <source src="musica/Even Flow.mp3" type="audio/mpeg" />
+            </audio></p>
+        </article>
+        <footer>
+            <p></p>
+            <form>
+                <label for="email">Cadastre seu email para receber novidades!</label>
+                <input type="email" id="email" name="email">
+                <input type="button" onclick="alert('Email cadastrado com sucesso!')" value="Enviar"> 
+            </form> 
+        </footer>
+    </div>
+</body>
+</html>
