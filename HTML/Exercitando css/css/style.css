@@ -5,9 +5,9 @@ h1{
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=PT+Serif&display=swap');
 
-
+  
 img {
     height: 150px;
     width: 150px;
