@@ -1,0 +1,23 @@
+  .container {
+    background-color: rgb(210, 175, 210);
+    border: 2px solid rebeccapurple;
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    padding: 15px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .retangulo{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    
+  }

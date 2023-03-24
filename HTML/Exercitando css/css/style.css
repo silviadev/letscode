@@ -1,0 +1,17 @@
+h1{
+    color: brown;
+    
+    text-align: center;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;   
+    object-fit: cover;
+    background: #dfdfdf;
+}
