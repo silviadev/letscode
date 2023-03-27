@@ -1,0 +1,102 @@
+.container{
+    width: 850px;
+    height: 900px;
+    border-radius: 10px;
+    background-color: rgb(114, 110, 105);
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=PT+Serif&family=Roboto+Slab:wght@300&display=swap');
+
+
+h1{
+    color: #d9764b;
+    text-align: center;
+}
+
+h4{
+    color: #aa3d0f;
+    text-align: justify;
+    margin: 10px;
+}
+
+.conteudo{
+    width: 800px;
+    height: 850px;
+   
+    margin: auto;
+    display:inline-flex;
+}
+
+.perfil{
+    width: 300px;
+    height: 850px;
+    background-color: rgb(61, 66, 64);
+    border-radius: 10px;
+    display: block;
+    position: relative;
+}
+
+.outros{
+    width: 500px;
+    height: 850px;
+    background-color: rgb(114, 110, 105);
+    border: 2px solid black;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto {
+    height: 180px;
+    width: 150px;
+    border-radius: 50%;
+    border-bottom: 2px solid black;
+    box-shadow: 1px 1px 10px;
+   
+}
+
+.descricao{
+    width: 250px;
+    height: 400px;
+    margin: auto;
+}
+
+.contato{
+    width: 250px;
+    height: 200px;
+    margin:auto;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+#mensagem{
+    width: 22px;
+    height: 22px;
+}
+
+.skills{
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.skills li{
+    margin-top: 7px;
+    padding-bottom: 3px;
+}

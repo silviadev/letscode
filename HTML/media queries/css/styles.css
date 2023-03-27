@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px){
+    body{
+        background-color: #00ff00;
+    }
+}
+
+.container{
+    display: grid;
+    row-gap: 16px;
+    grid-template-columns: 200px 200px;
+    gap: 16px;
+}
+
+.container .item{
+    background-color: blue;
+    height: 50px;
+}
