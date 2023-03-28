@@ -6,12 +6,34 @@
 
 .container{
     display: grid;
-    row-gap: 16px;
-    grid-template-columns: 200px 200px;
-    gap: 16px;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 30px 80px 20px;
+    grid-template-areas: "header header"
+                        "sidenav main"
+                        "footer footer";
+    gap: 16px ;
 }
 
-.container .item{
-    background-color: blue;
-    height: 50px;
+.header{
+    grid-area: header;
+    border: 2px solid purple;
+    background-color: bisque;
+}
+
+.sidenav{
+    grid-area: sidenav;
+    border: 2px solid purple;
+    background-color: bisque;
+}
+
+.main{
+    grid-area: main;
+    border: 2px solid purple;
+    background-color: bisque;
+}
+
+.footer{
+    grid-area: footer;
+     border: 2px solid purple;
+     background-color: bisque;
 }
