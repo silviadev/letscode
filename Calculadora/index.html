@@ -13,8 +13,8 @@
             <table>
                 <tr>
                     <td><button onclick="limpar()">C</button></td>
-                    <td><button>+/-</button></td>
-                    <td><button>%</button></td>
+                    <td><button onclick="apagar()"><-</button></td>
+                    <td><button onclick="inserir('-')">+/-</button></td>
                     <td><button onclick="inserir('/')">/</button></td>
                 </tr>
                 <tr>
@@ -38,7 +38,7 @@
                 <tr>
                     <td colspan="2"><button style="width: 103px;" onclick="inserir('0')">0</button></td>
                     <td><button onclick="inserir('.')">.</button></td>
-                    <td><button style="background-color: rgb(67, 42, 165);" onclick="inserir('=')">=</button></td>
+                    <td><button style="background-color: rgb(67, 42, 165);" onclick="calcular()">=</button></td>
                 </tr>
             </table>
         </div>
